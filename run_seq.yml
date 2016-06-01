@@ -4,7 +4,7 @@
   gather_facts: true
   tasks:
     - name: 500 numbers to stdout
-    - shell: /bin/seq 500
+      shell: /bin/seq 500
 
     - name: 100 numbers to stderr
-    - shell: /bin/seq 100 >&2
+      shell: /bin/seq 100 >&2
