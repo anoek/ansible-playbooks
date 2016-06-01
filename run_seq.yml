@@ -3,4 +3,8 @@
 - hosts: all
   gather_facts: true
   tasks:
-    - command: /bin/seq 500
+    - name: 500 numbers to stdout
+    - shell: /bin/seq 500
+
+    - name: 100 numbers to stderr
+    - shell: /bin/seq 100 >&2
