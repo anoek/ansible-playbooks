@@ -3,4 +3,4 @@
 - hosts: all
   gather_facts: true
   tasks:
-    - command: /bin/seq 10
+    - command: /bin/seq 500
