@@ -1,0 +1,1005 @@
+---
+
+- hosts: all
+  gather_facts: false
+  tasks:
+    - name: ping-01
+      ping:
+    - name: ping-02
+      ping:
+    - name: ping-03
+      ping:
+    - name: ping-04
+      ping:
+    - name: ping-05
+      ping:
+    - name: ping-06
+      ping:
+    - name: ping-07
+      ping:
+    - name: ping-08
+      ping:
+    - name: ping-09
+      ping:
+    - name: ping-10
+      ping:
+    - name: ping-11
+      ping:
+    - name: ping-12
+      ping:
+    - name: ping-13
+      ping:
+    - name: ping-14
+      ping:
+    - name: ping-15
+      ping:
+    - name: ping-16
+      ping:
+    - name: ping-17
+      ping:
+    - name: ping-18
+      ping:
+    - name: ping-19
+      ping:
+    - name: ping-20
+      ping:
+    - name: ping-21
+      ping:
+    - name: ping-22
+      ping:
+    - name: ping-23
+      ping:
+    - name: ping-24
+      ping:
+    - name: ping-25
+      ping:
+    - name: ping-26
+      ping:
+    - name: ping-27
+      ping:
+    - name: ping-28
+      ping:
+    - name: ping-29
+      ping:
+    - name: ping-30
+      ping:
+    - name: ping-31
+      ping:
+    - name: ping-32
+      ping:
+    - name: ping-33
+      ping:
+    - name: ping-34
+      ping:
+    - name: ping-35
+      ping:
+    - name: ping-36
+      ping:
+    - name: ping-37
+      ping:
+    - name: ping-38
+      ping:
+    - name: ping-39
+      ping:
+    - name: ping-40
+      ping:
+    - name: ping-41
+      ping:
+    - name: ping-42
+      ping:
+    - name: ping-43
+      ping:
+    - name: ping-44
+      ping:
+    - name: ping-45
+      ping:
+    - name: ping-46
+      ping:
+    - name: ping-47
+      ping:
+    - name: ping-48
+      ping:
+    - name: ping-49
+      ping:
+    - name: ping-50
+      ping:
+    - name: ping-51
+      ping:
+    - name: ping-52
+      ping:
+    - name: ping-53
+      ping:
+    - name: ping-54
+      ping:
+    - name: ping-55
+      ping:
+    - name: ping-56
+      ping:
+    - name: ping-57
+      ping:
+    - name: ping-58
+      ping:
+    - name: ping-59
+      ping:
+    - name: ping-60
+      ping:
+    - name: ping-61
+      ping:
+    - name: ping-62
+      ping:
+    - name: ping-63
+      ping:
+    - name: ping-64
+      ping:
+    - name: ping-65
+      ping:
+    - name: ping-66
+      ping:
+    - name: ping-67
+      ping:
+    - name: ping-68
+      ping:
+    - name: ping-69
+      ping:
+    - name: ping-70
+      ping:
+    - name: ping-71
+      ping:
+    - name: ping-72
+      ping:
+    - name: ping-73
+      ping:
+    - name: ping-74
+      ping:
+    - name: ping-75
+      ping:
+    - name: ping-76
+      ping:
+    - name: ping-77
+      ping:
+    - name: ping-78
+      ping:
+    - name: ping-79
+      ping:
+    - name: ping-80
+      ping:
+    - name: ping-81
+      ping:
+    - name: ping-82
+      ping:
+    - name: ping-83
+      ping:
+    - name: ping-84
+      ping:
+    - name: ping-85
+      ping:
+    - name: ping-86
+      ping:
+    - name: ping-87
+      ping:
+    - name: ping-88
+      ping:
+    - name: ping-89
+      ping:
+    - name: ping-90
+      ping:
+    - name: ping-91
+      ping:
+    - name: ping-92
+      ping:
+    - name: ping-93
+      ping:
+    - name: ping-94
+      ping:
+    - name: ping-95
+      ping:
+    - name: ping-96
+      ping:
+    - name: ping-97
+      ping:
+    - name: ping-98
+      ping:
+    - name: ping-99
+      ping:
+    - name: ping-100
+      ping:
+    - name: ping-101
+      ping:
+    - name: ping-102
+      ping:
+    - name: ping-103
+      ping:
+    - name: ping-104
+      ping:
+    - name: ping-105
+      ping:
+    - name: ping-106
+      ping:
+    - name: ping-107
+      ping:
+    - name: ping-108
+      ping:
+    - name: ping-109
+      ping:
+    - name: ping-110
+      ping:
+    - name: ping-111
+      ping:
+    - name: ping-112
+      ping:
+    - name: ping-113
+      ping:
+    - name: ping-114
+      ping:
+    - name: ping-115
+      ping:
+    - name: ping-116
+      ping:
+    - name: ping-117
+      ping:
+    - name: ping-118
+      ping:
+    - name: ping-119
+      ping:
+    - name: ping-120
+      ping:
+    - name: ping-121
+      ping:
+    - name: ping-122
+      ping:
+    - name: ping-123
+      ping:
+    - name: ping-124
+      ping:
+    - name: ping-125
+      ping:
+    - name: ping-126
+      ping:
+    - name: ping-127
+      ping:
+    - name: ping-128
+      ping:
+    - name: ping-129
+      ping:
+    - name: ping-130
+      ping:
+    - name: ping-131
+      ping:
+    - name: ping-132
+      ping:
+    - name: ping-133
+      ping:
+    - name: ping-134
+      ping:
+    - name: ping-135
+      ping:
+    - name: ping-136
+      ping:
+    - name: ping-137
+      ping:
+    - name: ping-138
+      ping:
+    - name: ping-139
+      ping:
+    - name: ping-140
+      ping:
+    - name: ping-141
+      ping:
+    - name: ping-142
+      ping:
+    - name: ping-143
+      ping:
+    - name: ping-144
+      ping:
+    - name: ping-145
+      ping:
+    - name: ping-146
+      ping:
+    - name: ping-147
+      ping:
+    - name: ping-148
+      ping:
+    - name: ping-149
+      ping:
+    - name: ping-150
+      ping:
+    - name: ping-151
+      ping:
+    - name: ping-152
+      ping:
+    - name: ping-153
+      ping:
+    - name: ping-154
+      ping:
+    - name: ping-155
+      ping:
+    - name: ping-156
+      ping:
+    - name: ping-157
+      ping:
+    - name: ping-158
+      ping:
+    - name: ping-159
+      ping:
+    - name: ping-160
+      ping:
+    - name: ping-161
+      ping:
+    - name: ping-162
+      ping:
+    - name: ping-163
+      ping:
+    - name: ping-164
+      ping:
+    - name: ping-165
+      ping:
+    - name: ping-166
+      ping:
+    - name: ping-167
+      ping:
+    - name: ping-168
+      ping:
+    - name: ping-169
+      ping:
+    - name: ping-170
+      ping:
+    - name: ping-171
+      ping:
+    - name: ping-172
+      ping:
+    - name: ping-173
+      ping:
+    - name: ping-174
+      ping:
+    - name: ping-175
+      ping:
+    - name: ping-176
+      ping:
+    - name: ping-177
+      ping:
+    - name: ping-178
+      ping:
+    - name: ping-179
+      ping:
+    - name: ping-180
+      ping:
+    - name: ping-181
+      ping:
+    - name: ping-182
+      ping:
+    - name: ping-183
+      ping:
+    - name: ping-184
+      ping:
+    - name: ping-185
+      ping:
+    - name: ping-186
+      ping:
+    - name: ping-187
+      ping:
+    - name: ping-188
+      ping:
+    - name: ping-189
+      ping:
+    - name: ping-190
+      ping:
+    - name: ping-191
+      ping:
+    - name: ping-192
+      ping:
+    - name: ping-193
+      ping:
+    - name: ping-194
+      ping:
+    - name: ping-195
+      ping:
+    - name: ping-196
+      ping:
+    - name: ping-197
+      ping:
+    - name: ping-198
+      ping:
+    - name: ping-199
+      ping:
+    - name: ping-200
+      ping:
+    - name: ping-201
+      ping:
+    - name: ping-202
+      ping:
+    - name: ping-203
+      ping:
+    - name: ping-204
+      ping:
+    - name: ping-205
+      ping:
+    - name: ping-206
+      ping:
+    - name: ping-207
+      ping:
+    - name: ping-208
+      ping:
+    - name: ping-209
+      ping:
+    - name: ping-210
+      ping:
+    - name: ping-211
+      ping:
+    - name: ping-212
+      ping:
+    - name: ping-213
+      ping:
+    - name: ping-214
+      ping:
+    - name: ping-215
+      ping:
+    - name: ping-216
+      ping:
+    - name: ping-217
+      ping:
+    - name: ping-218
+      ping:
+    - name: ping-219
+      ping:
+    - name: ping-220
+      ping:
+    - name: ping-221
+      ping:
+    - name: ping-222
+      ping:
+    - name: ping-223
+      ping:
+    - name: ping-224
+      ping:
+    - name: ping-225
+      ping:
+    - name: ping-226
+      ping:
+    - name: ping-227
+      ping:
+    - name: ping-228
+      ping:
+    - name: ping-229
+      ping:
+    - name: ping-230
+      ping:
+    - name: ping-231
+      ping:
+    - name: ping-232
+      ping:
+    - name: ping-233
+      ping:
+    - name: ping-234
+      ping:
+    - name: ping-235
+      ping:
+    - name: ping-236
+      ping:
+    - name: ping-237
+      ping:
+    - name: ping-238
+      ping:
+    - name: ping-239
+      ping:
+    - name: ping-240
+      ping:
+    - name: ping-241
+      ping:
+    - name: ping-242
+      ping:
+    - name: ping-243
+      ping:
+    - name: ping-244
+      ping:
+    - name: ping-245
+      ping:
+    - name: ping-246
+      ping:
+    - name: ping-247
+      ping:
+    - name: ping-248
+      ping:
+    - name: ping-249
+      ping:
+    - name: ping-250
+      ping:
+    - name: ping-251
+      ping:
+    - name: ping-252
+      ping:
+    - name: ping-253
+      ping:
+    - name: ping-254
+      ping:
+    - name: ping-255
+      ping:
+    - name: ping-256
+      ping:
+    - name: ping-257
+      ping:
+    - name: ping-258
+      ping:
+    - name: ping-259
+      ping:
+    - name: ping-260
+      ping:
+    - name: ping-261
+      ping:
+    - name: ping-262
+      ping:
+    - name: ping-263
+      ping:
+    - name: ping-264
+      ping:
+    - name: ping-265
+      ping:
+    - name: ping-266
+      ping:
+    - name: ping-267
+      ping:
+    - name: ping-268
+      ping:
+    - name: ping-269
+      ping:
+    - name: ping-270
+      ping:
+    - name: ping-271
+      ping:
+    - name: ping-272
+      ping:
+    - name: ping-273
+      ping:
+    - name: ping-274
+      ping:
+    - name: ping-275
+      ping:
+    - name: ping-276
+      ping:
+    - name: ping-277
+      ping:
+    - name: ping-278
+      ping:
+    - name: ping-279
+      ping:
+    - name: ping-280
+      ping:
+    - name: ping-281
+      ping:
+    - name: ping-282
+      ping:
+    - name: ping-283
+      ping:
+    - name: ping-284
+      ping:
+    - name: ping-285
+      ping:
+    - name: ping-286
+      ping:
+    - name: ping-287
+      ping:
+    - name: ping-288
+      ping:
+    - name: ping-289
+      ping:
+    - name: ping-290
+      ping:
+    - name: ping-291
+      ping:
+    - name: ping-292
+      ping:
+    - name: ping-293
+      ping:
+    - name: ping-294
+      ping:
+    - name: ping-295
+      ping:
+    - name: ping-296
+      ping:
+    - name: ping-297
+      ping:
+    - name: ping-298
+      ping:
+    - name: ping-299
+      ping:
+    - name: ping-300
+      ping:
+    - name: ping-301
+      ping:
+    - name: ping-302
+      ping:
+    - name: ping-303
+      ping:
+    - name: ping-304
+      ping:
+    - name: ping-305
+      ping:
+    - name: ping-306
+      ping:
+    - name: ping-307
+      ping:
+    - name: ping-308
+      ping:
+    - name: ping-309
+      ping:
+    - name: ping-310
+      ping:
+    - name: ping-311
+      ping:
+    - name: ping-312
+      ping:
+    - name: ping-313
+      ping:
+    - name: ping-314
+      ping:
+    - name: ping-315
+      ping:
+    - name: ping-316
+      ping:
+    - name: ping-317
+      ping:
+    - name: ping-318
+      ping:
+    - name: ping-319
+      ping:
+    - name: ping-320
+      ping:
+    - name: ping-321
+      ping:
+    - name: ping-322
+      ping:
+    - name: ping-323
+      ping:
+    - name: ping-324
+      ping:
+    - name: ping-325
+      ping:
+    - name: ping-326
+      ping:
+    - name: ping-327
+      ping:
+    - name: ping-328
+      ping:
+    - name: ping-329
+      ping:
+    - name: ping-330
+      ping:
+    - name: ping-331
+      ping:
+    - name: ping-332
+      ping:
+    - name: ping-333
+      ping:
+    - name: ping-334
+      ping:
+    - name: ping-335
+      ping:
+    - name: ping-336
+      ping:
+    - name: ping-337
+      ping:
+    - name: ping-338
+      ping:
+    - name: ping-339
+      ping:
+    - name: ping-340
+      ping:
+    - name: ping-341
+      ping:
+    - name: ping-342
+      ping:
+    - name: ping-343
+      ping:
+    - name: ping-344
+      ping:
+    - name: ping-345
+      ping:
+    - name: ping-346
+      ping:
+    - name: ping-347
+      ping:
+    - name: ping-348
+      ping:
+    - name: ping-349
+      ping:
+    - name: ping-350
+      ping:
+    - name: ping-351
+      ping:
+    - name: ping-352
+      ping:
+    - name: ping-353
+      ping:
+    - name: ping-354
+      ping:
+    - name: ping-355
+      ping:
+    - name: ping-356
+      ping:
+    - name: ping-357
+      ping:
+    - name: ping-358
+      ping:
+    - name: ping-359
+      ping:
+    - name: ping-360
+      ping:
+    - name: ping-361
+      ping:
+    - name: ping-362
+      ping:
+    - name: ping-363
+      ping:
+    - name: ping-364
+      ping:
+    - name: ping-365
+      ping:
+    - name: ping-366
+      ping:
+    - name: ping-367
+      ping:
+    - name: ping-368
+      ping:
+    - name: ping-369
+      ping:
+    - name: ping-370
+      ping:
+    - name: ping-371
+      ping:
+    - name: ping-372
+      ping:
+    - name: ping-373
+      ping:
+    - name: ping-374
+      ping:
+    - name: ping-375
+      ping:
+    - name: ping-376
+      ping:
+    - name: ping-377
+      ping:
+    - name: ping-378
+      ping:
+    - name: ping-379
+      ping:
+    - name: ping-380
+      ping:
+    - name: ping-381
+      ping:
+    - name: ping-382
+      ping:
+    - name: ping-383
+      ping:
+    - name: ping-384
+      ping:
+    - name: ping-385
+      ping:
+    - name: ping-386
+      ping:
+    - name: ping-387
+      ping:
+    - name: ping-388
+      ping:
+    - name: ping-389
+      ping:
+    - name: ping-390
+      ping:
+    - name: ping-391
+      ping:
+    - name: ping-392
+      ping:
+    - name: ping-393
+      ping:
+    - name: ping-394
+      ping:
+    - name: ping-395
+      ping:
+    - name: ping-396
+      ping:
+    - name: ping-397
+      ping:
+    - name: ping-398
+      ping:
+    - name: ping-399
+      ping:
+    - name: ping-400
+      ping:
+    - name: ping-401
+      ping:
+    - name: ping-402
+      ping:
+    - name: ping-403
+      ping:
+    - name: ping-404
+      ping:
+    - name: ping-405
+      ping:
+    - name: ping-406
+      ping:
+    - name: ping-407
+      ping:
+    - name: ping-408
+      ping:
+    - name: ping-409
+      ping:
+    - name: ping-410
+      ping:
+    - name: ping-411
+      ping:
+    - name: ping-412
+      ping:
+    - name: ping-413
+      ping:
+    - name: ping-414
+      ping:
+    - name: ping-415
+      ping:
+    - name: ping-416
+      ping:
+    - name: ping-417
+      ping:
+    - name: ping-418
+      ping:
+    - name: ping-419
+      ping:
+    - name: ping-420
+      ping:
+    - name: ping-421
+      ping:
+    - name: ping-422
+      ping:
+    - name: ping-423
+      ping:
+    - name: ping-424
+      ping:
+    - name: ping-425
+      ping:
+    - name: ping-426
+      ping:
+    - name: ping-427
+      ping:
+    - name: ping-428
+      ping:
+    - name: ping-429
+      ping:
+    - name: ping-430
+      ping:
+    - name: ping-431
+      ping:
+    - name: ping-432
+      ping:
+    - name: ping-433
+      ping:
+    - name: ping-434
+      ping:
+    - name: ping-435
+      ping:
+    - name: ping-436
+      ping:
+    - name: ping-437
+      ping:
+    - name: ping-438
+      ping:
+    - name: ping-439
+      ping:
+    - name: ping-440
+      ping:
+    - name: ping-441
+      ping:
+    - name: ping-442
+      ping:
+    - name: ping-443
+      ping:
+    - name: ping-444
+      ping:
+    - name: ping-445
+      ping:
+    - name: ping-446
+      ping:
+    - name: ping-447
+      ping:
+    - name: ping-448
+      ping:
+    - name: ping-449
+      ping:
+    - name: ping-450
+      ping:
+    - name: ping-451
+      ping:
+    - name: ping-452
+      ping:
+    - name: ping-453
+      ping:
+    - name: ping-454
+      ping:
+    - name: ping-455
+      ping:
+    - name: ping-456
+      ping:
+    - name: ping-457
+      ping:
+    - name: ping-458
+      ping:
+    - name: ping-459
+      ping:
+    - name: ping-460
+      ping:
+    - name: ping-461
+      ping:
+    - name: ping-462
+      ping:
+    - name: ping-463
+      ping:
+    - name: ping-464
+      ping:
+    - name: ping-465
+      ping:
+    - name: ping-466
+      ping:
+    - name: ping-467
+      ping:
+    - name: ping-468
+      ping:
+    - name: ping-469
+      ping:
+    - name: ping-470
+      ping:
+    - name: ping-471
+      ping:
+    - name: ping-472
+      ping:
+    - name: ping-473
+      ping:
+    - name: ping-474
+      ping:
+    - name: ping-475
+      ping:
+    - name: ping-476
+      ping:
+    - name: ping-477
+      ping:
+    - name: ping-478
+      ping:
+    - name: ping-479
+      ping:
+    - name: ping-480
+      ping:
+    - name: ping-481
+      ping:
+    - name: ping-482
+      ping:
+    - name: ping-483
+      ping:
+    - name: ping-484
+      ping:
+    - name: ping-485
+      ping:
+    - name: ping-486
+      ping:
+    - name: ping-487
+      ping:
+    - name: ping-488
+      ping:
+    - name: ping-489
+      ping:
+    - name: ping-490
+      ping:
+    - name: ping-491
+      ping:
+    - name: ping-492
+      ping:
+    - name: ping-493
+      ping:
+    - name: ping-494
+      ping:
+    - name: ping-495
+      ping:
+    - name: ping-496
+      ping:
+    - name: ping-497
+      ping:
+    - name: ping-498
+      ping:
+    - name: ping-499
+      ping:
+    - name: ping-500
+      ping:
